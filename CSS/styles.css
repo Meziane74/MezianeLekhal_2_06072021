@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+}
+
+body {
+  font-family: "Raleway", "Trebuchet MS", Arial, sans-serif;
+  color: black;
+}
+
+/* .logo {
+  flex: 1;
+  width: 100px;px;
+  padding-top: 32px;
+} */
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li:hover {
+  border-top: 3px solid #0065fc;
+  padding-top: 37px;
+}
+
+nav ul a:hover {
+  color: #0065fc;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+/* .slogan_searchbar {
+  margin-top: 20px;
+}
+
+.slogan_searchbar h1 {
+  margin-bottom: 15px;
+}
+
+#searchbar {
+  display: flex;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+} */
+
+#filtres {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.all_filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#inscription {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hotels {
+  display: flex;
+  padding: 0;
+  margin-bottom: 32px;
+}
+
+.hotels .populaire {
+  margin-left: 20px;
+}
+
+.hotels .marseille {
+  display: flex;
+}
+
+.hotels .h1,
+.h2 {
+  margin-bottom: 1.5rem;
+}
+
+.hotel_carte {
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fa-star {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.blue_star {
+  color: #0065fc;
+}
+
+.grey_star {
+  color: #e6e1e1;
+}
