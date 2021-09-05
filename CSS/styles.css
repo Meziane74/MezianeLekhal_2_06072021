@@ -41,3 +41,15 @@ nav ul li{
   list-style-type: none;
 }
 
+nav ul li:hover {
+  border-top: 3px solid #0065fc;
+  padding-top: 37px;
+
+  nav ul a:hover {
+    color: #0065fc;
+  }
+  
+  h1 {
+    font-size: 1.4rem;
+  }
+  
