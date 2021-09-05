@@ -334,3 +334,18 @@ nav ul li:hover {
   height: 100%;
   object-fit: cover;
 }
+
+.populaireDescription {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+.populaireDescription .hotel_name+p {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
