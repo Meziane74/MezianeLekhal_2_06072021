@@ -395,3 +395,27 @@ margin : 0rem 4rem 0rem;
   font-weight: 700;
 }
 
+.img1 {
+  grid-area: a
+}
+
+.img2 {
+  grid-area: b;
+}
+
+.img3 {
+  grid-area: c;
+}
+
+.img4 {
+  grid-area: d;
+}
+
+.img5 {
+  grid-area: e;
+}
+
+.img6 {
+  grid-area: f;
+}
+
