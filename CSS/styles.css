@@ -209,3 +209,54 @@ nav ul li:hover {
     margin-right: 10px;
   }
   
+  .hotels {
+    display: flex;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .hotels
+  .populaire {
+    margin-left: 20px;
+  }
+  
+  .hotels article,
+  .hotels aside {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+  
+  }
+  
+  .hotels aside {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .hotels .marseille {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  
+  .hotels h1,
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .hotel_card {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    box-sizing: border-box;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #c1c1c1;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    flex: 30%;
+  }
+  
+  
