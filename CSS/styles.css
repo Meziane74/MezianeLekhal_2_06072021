@@ -44,6 +44,7 @@ nav ul li{
 nav ul li:hover {
   border-top: 3px solid #0065fc;
   padding-top: 37px;
+}
 
   nav ul a:hover {
     color: #0065fc;
@@ -143,4 +144,68 @@ nav ul li:hover {
     display: none;
   }
   
+  #filters {
+    margin-top: 3rem;
+    display: flex;
+    /* justify-content: baseline; */
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  section .all_filters {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #filters h2 {
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+  
+  div.filter {
+    /* margin-block-start: 1rem;
+    margin-block-end: 1rem;*/
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-right: 15px;
+    border: #ccc solid 1px;
+    border-radius: 30px;
+    border-left: none;
+  
+    /* white-space: nowrap; */
+    /* width: 200px; */
+  }
+  
+  div.filter div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: #0265FC;
+    background-color: #cbe0ff;
+    border: #cbe0ff solid 1px;
+    border-radius: 50%;
+    margin-left: -3px;
+  }
+  
+  div.filter span {
+    margin-left: 5px;
+  }
 
+  section#hostings {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #hostings p.info i {
+    color: #0265FC;
+    border-radius: 50%;
+    border: #ccc solid 1px;
+    padding: 10px 15px;
+    margin-right: 10px;
+  }
+  
