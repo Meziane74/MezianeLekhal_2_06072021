@@ -36,9 +36,16 @@ a{
   padding-top: 35px;
 }
 
-nav ul li{
+nav ul {
   display: flex;
   list-style-type: none;
+}
+
+nav ul li {
+  padding-top: 40px;
+  margin-right: 40px;
+  padding-right: 35px;
+  padding-left: 35px;
 }
 
 nav ul li:hover {
