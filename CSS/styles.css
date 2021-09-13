@@ -450,3 +450,8 @@ footer li {
   margin-top: 25px;
   justify-content: left;
 }
+
+/* -------------------Responsive sur tablette---------------- */
+
+
+@media screen and (max-width: 1024px)
