@@ -610,3 +610,31 @@ header {
     margin: 0;
   }
 
+/* -------------------hebergements & populaires---------------- */
+
+section.hotels {
+  margin-left: 0;
+
+  width: 100%;
+}
+
+.hotels aside {
+  border-radius: 0;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.hotels article {
+  border-radius: 0;
+  padding-left: 2rem;
+  padding-right: 0rem;
+  background-color: #fff;
+}
+
+.hotel_card {
+  flex: 100%;
+}
+
+.populaireCard {
+  flex: 100%;
+}
