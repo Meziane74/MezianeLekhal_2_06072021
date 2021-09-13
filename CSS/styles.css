@@ -638,3 +638,37 @@ section.hotels {
 .populaireCard {
   flex: 100%;
 }
+
+/* -------------------activites---------------- */
+
+.activites {
+
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, 200px);
+  grid-template-areas:
+    "a"
+    "c"
+    "e"
+    "b"
+    "d"
+    "f";
+}
+
+.activites img {
+  height: 150px;
+}
+
+.activites .text-aside {
+  height: 50px;
+}
+
+#hotels_activites {
+  margin: 0 30px;
+}
+
+/* -------------------footer---------------- */
+
+  footer {
+  padding-left: 35px;
+}
+}
