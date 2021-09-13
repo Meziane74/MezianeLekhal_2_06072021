@@ -555,4 +555,17 @@ header {
   nav ul a:hover {
     color: inherit;
   }
-  
+
+  nav ul li {
+    padding-top: 37px;
+    padding-bottom: 15px;
+    margin-right: 0;
+    width: 50%;
+    text-align: center;
+    border-bottom: 3px solid #f1eeee;
+  }
+
+  nav ul li:hover {
+    border-top: none;
+    border-bottom-color: #0065fc;
+  }
