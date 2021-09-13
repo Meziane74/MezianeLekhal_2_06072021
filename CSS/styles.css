@@ -454,4 +454,43 @@ footer li {
 /* -------------------Responsive sur tablette---------------- */
 
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px){
+
+/* -------------------hebergements & populaires & activites---------------- */
+
+.hotel_card {
+  flex: 40%;
+}
+
+.hotels {
+  flex-direction: column;
+}
+
+.hotels .article {
+  order: 2;
+  margin-top: 2.5rem;
+}
+
+.hotels .aside {
+  margin: 0;
+}
+
+.populaireTab {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.populaireCard {
+  flex: 30%;
+  margin-right: 15px;
+}
+
+.activites {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "a b d"
+    "e c f";
+}
+}
