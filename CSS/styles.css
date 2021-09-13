@@ -569,3 +569,44 @@ header {
     border-top: none;
     border-bottom-color: #0065fc;
   }
+
+  /* -------------------filters---------------- */
+
+  .slogan_searchbar {
+    margin: 0 1rem;
+  }
+
+  #filters {
+    width: 100%;
+    margin-left: 1rem;
+
+  }
+
+  #searchbar {
+    display: flex;
+
+
+  }
+
+  #searchbar .middle {
+    flex: 1;
+  }
+
+
+  #searchbar span.right {
+    padding: 0 15px;
+    border-radius: 10px;
+  }
+
+  #searchbar .val_search {
+    display: none;
+  }
+
+  #searchbar .fa-search {
+    display: block;
+  }
+
+  .container {
+    margin: 0;
+  }
+
