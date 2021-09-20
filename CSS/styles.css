@@ -313,10 +313,16 @@ nav ul li:hover {
     
   /* populaire */
 
+  .populaire h2 {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+
 .populaireTab {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+
 }
 
 .populaireIcon {
@@ -480,12 +486,13 @@ footer li {
   flex-direction: column;
 }
 
-.hotels .article {
+.hotels article {
   order: 2;
   margin-top: 2.5rem;
 }
 
-.hotels .aside {
+.hotels aside {
+ 
   margin: 0;
 }
 
@@ -495,9 +502,12 @@ footer li {
 
 }
 
+
+
 .populaireCard {
-  flex: 30%;
+  flex: 20%;
   margin-right: 15px;
+
 }
 
 .activites {
