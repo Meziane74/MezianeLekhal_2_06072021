@@ -241,16 +241,19 @@ nav ul li:hover {
     margin-left: 20px;
   }
   
-  .hotels article,
-  .hotels aside {
+  .hotels article {
     background-color: #f2f2f2;
     border-radius: 20px;
+    flex: 3;
     padding-left: 2rem;
-    padding-top: 2rem;
-  
+    padding-right: 2rem;
+
   }
   
   .hotels aside {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    flex: 1;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -329,6 +332,8 @@ nav ul li:hover {
   flex-wrap: wrap;
 
 }
+
+
 
 .populaireIcon {
   justify-content: space-between;
