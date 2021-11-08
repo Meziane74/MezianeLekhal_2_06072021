@@ -660,7 +660,7 @@ header {
 
 /* -------------------hebergements & populaires---------------- */
 
-section.hotels {
+div.hotels {
   margin-left: 0;
 
   width: 100%;
